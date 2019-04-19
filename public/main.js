@@ -316,7 +316,7 @@ var WeatherService = /** @class */ (function () {
         this.apiKey = "1434dca849cf40eaae0114408191804";
     }
     WeatherService.prototype.getTemperature = function (city_name) {
-        return this.http.get("http://api.apixu.com/v1/forecast.json?key=" + this.apiKey + "&q=" + city_name + "&days=7");
+        return this.http.get("https://api.apixu.com/v1/forecast.json?key=" + this.apiKey + "&q=" + city_name + "&days=7");
     };
     WeatherService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
